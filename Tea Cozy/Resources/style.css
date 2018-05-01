@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  font-family: helvetica;
+  opacity: .9;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 2400px;
+  position: fixed;
+  top: 0;
+  background-color: black;
+}
+
+.logo {
+  background-image: url(Images/img-tea-cozy-logo.png);
+  position: fixed;
+  left: 10px;
+  top: 15px;
+  height: 50px;
+  width: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  position: fixed;
+  height: 50px;
+  top: 15px;
+  right: 0px;
+}
+
+a {
+  color: seashell;
+  margin-right: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+.top {
+  margin-top: 69px;
+  margin-bottom: 60px;
+}
+
+.granolaimage {
+  background-image: url(Images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.granolatitletext {
+  top: 310px;
+  position: relative;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.middle {
+  display: block;
+}
+
+.middletoptext {
+  display: block;
+}
+
+.middleimage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.fallteaimage {
+  background-image: url(Images/img-berryblitz.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.spicedteaimage {
+  background-image: url(Images/img-spiced-rum.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.donutsimage {
+  background-image: url(Images/img-donut.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.myrtleteaimage {
+  background-image: url(Images/img-myrtle-ave.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.bedfordteaimage {
+  background-image: url(Images/img-bedford-bizarre.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.bottom {
+  display: block;
+}
+
+.bottomcoffeeimage {
+  background-image: url(Images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.bottomlocation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomtitle {
+  margin-top:50px;
+  margin-bottom: 15px;
+}
+
+.bottomlocationsbox{
+  width: 300px;
+  height: 290px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background-color: black;
+  opacity: 1;
+}
+
+.footer {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+  height: 200px;
+}
+
+.footertitle {
+  padding-bottom: 5px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
